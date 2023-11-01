@@ -1,2 +1,2 @@
-# homework
+# Homework
 Repozitář s domácími úkoly
