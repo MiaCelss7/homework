@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tahoma';
+}
+
+.container {
+    max-width: 1140px;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 136px;
+    margin-bottom: 23px;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000000;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #313131;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 54px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn-blue {
+    margin-right: 30px;
+    border-radius: 5px;
+    border: 1px solid #4572d7;
+    padding: 23px 66px 23px 64px;
+    text-decoration: none;
+    background-color: #4572d7;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-white {
+    border-radius: 5px;
+    border: 1px solid #4572d7;
+    padding: 23px 73px;
+    text-decoration: none;
+    background-color: #fff;
+    color :#4572d7;
+    font-weight: 700;
+}
+
+.main-image {
+    margin-top: 160px;
+}
+
+.navbar {
+    margin-top: 229px;
+    background-color: #f2f2f2;
+    padding: 89px 0;
+}
+
+.navbar-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.navbar-wrap {
+    display: flex;
+  
+}
+
+.navbar-item span {
+    display: block;
+    margin-right: 134px;
+    width: 112px;
+    height: 37px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+.people-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people-item {
+    width: 24%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+     .people-item {
+        width: 49%;
+     }
+}
+
+@media (max-width: 600px) {
+    .people-item {
+       width: 98%;
+    }
+}
+
+.people-item img {
+    width: 100%;
+}
+
+
+
